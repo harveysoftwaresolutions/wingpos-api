@@ -35,7 +35,7 @@ This file includes generic parts of the api for wing.
     {
       "sessionStatus": "False"
     }
-    ```  
+   ```  
     ### Check the status of a session
     
    
