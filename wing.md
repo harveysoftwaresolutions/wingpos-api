@@ -1,4 +1,9 @@
-This file includes generic parts of the api for wing.
+This file includes api references for the very core functionality of wings:
+ - Session managment (With authentication)
+ - User management
+ - Database management
+
+
 As long as the server software follows this standard, wing application modules will be able to work with it.
 
 ----
@@ -65,7 +70,28 @@ As long as the server software follows this standard, wing application modules w
     "sessionStatus": "<sessionStatus>"
    }
    ```
-   
-   
+----
+# User management
+  ### Create a user:
+  User management will require a authentication token to validate addition of users. This will be done in wing by using time based 2fa
+  Request:
+  
+  ```
+  {
+    "method": "create_user",
+    "authToken": "<token>"
+    "user": "<username>",
+    "secret": "<user secret>"
+  }
+  ```
+  
+  Response:
+  
+  ```
+  {
+    "status": "<Success/Failure>",
+    "user": "<new username>",
+    "secret": "<user secret>"
+  }
    
 
