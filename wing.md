@@ -34,7 +34,7 @@ As long as the server software follows this standard, wing application modules w
   ```
     {
       "method": "close_session",
-      "sessionToken": "Session Token"
+      "sessionToken": "Session Token",
     }
    ```
    
@@ -53,7 +53,6 @@ As long as the server software follows this standard, wing application modules w
    {
     "method": "validate_session",
     "sessionToken": "<sessionToken>"
-    "force": "false"
    }
    ```  
    
