@@ -23,8 +23,9 @@ As long as the server software follows this standard, wing application modules w
   
   ```
     {
-      "sessionToken": "<UUID>",
-      "sessionStatus": "<session status>" //True of False
+      "status": {
+        
+      "sessionToken": "<UUID>"
     }
    ```  
    
