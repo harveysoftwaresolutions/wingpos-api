@@ -42,7 +42,14 @@ The various codes are as follows
 - 300-310 (Database management codes)
   - 300 - ```Database does not exist```
   - 301 - ```Attempt to create a duplicate database```
-  
-
+- 400-410 (Inventory management codes)
+  - 300 - ```Invalid item```
+  - 301 - ```Null value```
+  - 302 - ```Invalid item quantity```
+  - 303 - ```1```
+- 500-550 (Financial management codes)
+- 600-650 (Employee management codes)
+- 700-750 (Order management codes)
+- 800-850 ()
 
 
